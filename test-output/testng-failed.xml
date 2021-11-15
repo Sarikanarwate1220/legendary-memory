@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testLayerpackage.homePageTest">
+      <class name="baseLayerPackage.testngdemo$ParameterWithParallelMethod">
         <methods>
-          <include name="loggeduserfunctionality"/>
-          <include name="SetUp"/>
-          <include name="TearDown"/>
+          <include name="launching"/>
         </methods>
-      </class> <!-- testLayerpackage.homePageTest -->
+      </class> <!-- baseLayerPackage.testngdemo$ParameterWithParallelMethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

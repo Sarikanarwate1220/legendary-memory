@@ -8,7 +8,7 @@ public static WebDriver driver;
 	
 	public static void intiliazation() {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\SHREE\\Desktop\\chromedriver.exe");
+				"C:\\Users\\SHREE\\Desktop\\chromedriver_win32\\chromedriver.exe");
 
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();

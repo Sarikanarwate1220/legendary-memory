@@ -7,13 +7,10 @@ import org.openqa.selenium.WebElement;
 public class demo extends baseclass {
 	public static void main(String[] args) throws InterruptedException {
 	baseclass.intiliazation();
-	driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
-	WebElement wb=driver.findElement(By.name("proceed"));
-	wb.click();
-	Alert ab =driver.switchTo().alert();
-	String s=ab.getText();
-	System.out.println(s);
-	Thread.sleep(5000);
-     ab.accept();
+	driver.get("https://chercher.tech/practice/practice-pop-ups-selenium-webdriver");
+	driver.findElement(By.name("alert")).click();
+	Alert alt=driver.switchTo().alert();
+	System.out.println(alt.getText());
+	alt.accept();
 	}
 }
